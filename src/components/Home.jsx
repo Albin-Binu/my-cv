@@ -55,6 +55,17 @@ const Home = () => {
                 system-level logic.
               </p>
             </div>
+             <div className="space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                Industrial Visit – Cybrosys Technologies
+              </h3>
+              <h4 className="text-sm font-semibold md:text-lg">
+                Completed: December 2024
+              </h4>
+              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                Attended a one-day industrial visit at Cybrosys Technologies, where I gained insights into real-world software development practices, project workflows, and team collaboration. The experience provided valuable exposure to the IT industry environment and work culture.
+              </p>
+            </div>
           </div>
         </div>
 
