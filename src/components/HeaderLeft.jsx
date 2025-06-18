@@ -50,7 +50,7 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
             </li>
             <li className="flex items-center gap-5">
               <BiEnvelope className="text-xl" />
-              <span>albinbinuk17@gmail.com</span>
+              <span><a href="mailto:albinbinuk17@gmail.com">albinbinuk17@gmail.com</a></span>
             </li>
           </ul>
         </div>
