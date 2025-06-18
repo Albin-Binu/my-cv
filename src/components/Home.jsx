@@ -82,23 +82,54 @@ const Home = () => {
         {/* References */}
         <div className="space-y-10">
           <h1 className="text-2xl font-bold md:text-4xl">References</h1>
-          <div className="flex flex-wrap gap-10">
-            <div className="space-y-1">
-              <h3 className="text-lg font-light">Designer</h3>
-              <h2 className="text-base font-semibold md:text-2xl">
+          <div className="flex flex-col gap-8 md:flex-row md:gap-16">
+            {/* Reference 1 */}
+            <div className="space-y-2 border-l-4 border-indigo-500 pl-4">
+              <h3 className="text-sm uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                Professional Reference
+              </h3>
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
                 Sooraj Valsaraj
               </h2>
-              <p className="text-gray-600 dark:text-gray-400">Phone: ---</p>
-              <p className="text-gray-600 dark:text-gray-400">
-                Email: soorajvalsaraj24@gmail.com
+              <p className="text-sm text-gray-700 dark:text-gray-300">
+                Role: Editor & Desinger
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Email:{" "}
+                <a
+                  href="mailto:soorajvalsaraj24@gmail.com"
+                  className="underline hover:text-indigo-600"
+                >
+                  soorajvalsaraj24@gmail.com
+                </a>
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Phone: ---
               </p>
             </div>
-            <div className="space-y-1">
-              <h3 className="text-lg font-light">Designer</h3>
-              <h2 className="text-base font-semibold md:text-2xl">Ashin P</h2>
-              <p className="text-gray-600 dark:text-gray-400">Phone: ---</p>
-              <p className="text-gray-600 dark:text-gray-400">
-                Email: ashinssj3@gmail.com
+
+            {/* Reference 2 */}
+            <div className="space-y-2 border-l-4 border-indigo-500 pl-4">
+              <h3 className="text-sm uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                Professional Reference
+              </h3>
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Ashin P
+              </h2>
+              <p className="text-sm text-gray-700 dark:text-gray-300">
+                Role: Designer & Game tester
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Email:{" "}
+                <a
+                  href="mailto:ashinssj3@gmail.com"
+                  className="underline hover:text-indigo-600"
+                >
+                  ashinssj3@gmail.com
+                </a>
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Phone: ---
               </p>
             </div>
           </div>
