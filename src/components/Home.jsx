@@ -1,9 +1,21 @@
 import React from "react";
-import { BiLogoGithub } from "react-icons/bi";
+import { BiLogoGithub, BiDownload } from "react-icons/bi";
 
 const Home = () => {
   return (
     <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-black dark:text-white">
+      {/* Download CV Button */}
+      <div className="flex justify-end px-5 pt-5">
+        <a
+          href="/Albin_Binu_CV.pdf"
+          download
+          className="inline-flex items-center gap-2 rounded-md border border-blue-600 bg-blue-600 px-4 py-2 text-white font-semibold transition duration-300 hover:bg-blue-700 dark:hover:bg-white dark:hover:text-black"
+        >
+          <BiDownload size={18} />
+          Download CV
+        </a>
+      </div>
+
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14">
         {/* About Section */}
         <div className="space-y-5">
@@ -34,7 +46,6 @@ const Home = () => {
         <div className="max-w-3xl space-y-8">
           <h1 className="text-2xl font-bold md:text-4xl">Certificates</h1>
           <div className="space-y-10">
-            {/* Python Certificate */}
             <div className="space-y-2 border-l-4 border-red-500 pl-4">
               <h3 className="text-lg font-semibold">
                 Introduction to Python – SoloLearn
@@ -51,7 +62,6 @@ const Home = () => {
               </p>
             </div>
 
-            {/* C Certificate */}
             <div className="space-y-2 border-l-4 border-blue-500 pl-4">
               <h3 className="text-lg font-semibold">
                 Introduction to C – SoloLearn
@@ -67,7 +77,6 @@ const Home = () => {
               </p>
             </div>
 
-            {/* IV Certificate */}
             <div className="space-y-2 border-l-4 border-green-500 pl-4">
               <h3 className="text-lg font-semibold">
                 Industrial Visit – Cybrosys Technologies
@@ -90,7 +99,6 @@ const Home = () => {
         <div className="space-y-10">
           <h1 className="text-2xl font-bold md:text-4xl">References</h1>
           <div className="flex flex-col gap-8 md:flex-row md:gap-16">
-            {/* Reference 1 */}
             <div className="space-y-2 border-l-4 border-indigo-500 pl-4">
               <h3 className="text-sm uppercase tracking-wider text-gray-500 dark:text-gray-400">
                 Professional Reference
@@ -99,7 +107,7 @@ const Home = () => {
                 Sooraj Valsaraj
               </h2>
               <p className="text-sm text-gray-700 dark:text-gray-300">
-                Role: Editor & Desinger
+                Role: Editor & Designer
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Email:{" "}
@@ -115,7 +123,6 @@ const Home = () => {
               </p>
             </div>
 
-            {/* Reference 2 */}
             <div className="space-y-2 border-l-4 border-indigo-500 pl-4">
               <h3 className="text-sm uppercase tracking-wider text-gray-500 dark:text-gray-400">
                 Professional Reference
@@ -124,7 +131,7 @@ const Home = () => {
                 Ashin P
               </h2>
               <p className="text-sm text-gray-700 dark:text-gray-300">
-                Role: Designer & Game tester
+                Role: Designer & Game Tester
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Email:{" "}
@@ -142,11 +149,9 @@ const Home = () => {
           </div>
         </div>
 
-        {/* mini projects */}
-
+        {/* Projects */}
         <div className="space-y-10">
           <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
-          {/* project 1 */}
           <ul className="space-y-6">
             <li className="border-l-4 border-indigo-500 pl-4">
               <h3 className="flex items-center gap-3 text-lg font-semibold md:text-xl text-gray-900 dark:text-white">
@@ -169,9 +174,7 @@ const Home = () => {
                 smooth navigation and accessibility.
               </p>
             </li>
-          </ul>
-          {/* project -2  */}
-          <ul className="space-y-6">
+
             <li className="border-l-4 border-indigo-500 pl-4">
               <h3 className="flex items-center gap-3 text-lg font-semibold md:text-xl text-gray-900 dark:text-white">
                 College Website Clone
