@@ -9,17 +9,24 @@ const Home = () => {
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-            Hey! I'm <b>Albin Binu</b>, a final-year Computer Science student at
-            the <b>College of Applied Science, Thiruvambadi</b>. I'm passionate
-            about <b>programming</b>, especially in <b>backend development</b>{" "}
-            and <b>object-oriented languages</b> like <b>Python</b> and{" "}
-            <b>Dart</b>. I'm currently learning Flutter to build cross-platform
-            apps and improving my skills in <b>app development</b>. Although{" "}
-            <b>math</b> and <b>web designing</b> (especially CSS) can be
-            challenging, I enjoy working with <b>data structures</b> and backend
-            logic. While my design skills are still growing, I focus on clean
-            code and strong functionality. I'm always learning and building—one
-            step at a time.
+            Hello! I’m <b>Albin Binu</b>, a Computer Science student at the
+            <b> College of Applied Science, Thiruvambadi</b>. I’m deeply
+            passionate about
+            <b> programming</b>, with a strong interest in{" "}
+            <b>backend development</b> and
+            <b> object-oriented languages</b> like <b>Python</b> and <b>Dart</b>
+            . Currently, I’m exploring <b>Flutter</b> to build cross-platform
+            mobile applications and further develop my
+            <b> app development</b> skills.
+            <br />
+            <br />
+            While I find <b>mathematics</b> and <b>web design</b> (especially
+            CSS) challenging, I genuinely enjoy solving problems related to{" "}
+            <b>data structures</b> and backend logic. My design skills are a
+            work in progress, but I prioritize writing <b>clean</b> and{" "}
+            <b>functional code</b>. I’m committed to continuous learning,
+            improvement, and building practical software solutions—one step at a
+            time.
           </p>
         </div>
 
