@@ -9,7 +9,7 @@ const Home = () => {
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-            Hey! I'm <b>Albin Binu</b>, a first-year Computer Science student at
+            Hey! I'm <b>Albin Binu</b>, a final-year Computer Science student at
             the <b>College of Applied Science, Thiruvambadi</b>. I'm passionate
             about <b>programming</b>, especially in <b>backend development</b>{" "}
             and <b>object-oriented languages</b> like <b>Python</b> and{" "}
