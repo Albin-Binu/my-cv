@@ -137,28 +137,57 @@ const Home = () => {
 
         {/* mini projects */}
 
-        <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
-        <ul className="space-y-4">
-          <li>
-            <h3 className="font-semibold flex items-center gap-2 text-lg md:text-xl">
-              Portfolio Website
-              <a
-                href="https://github.com/Albin-Binu/personal-portfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black dark:text-white transition-colors"
-                title="View on GitHub"
-              >
-                <BiLogoGithub size={20} />
-              </a>
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-              A responsive portfolio website built using React.js and Bootstrap.
-              Features include animations, social linking, and contact
-              information.
-            </p>
-          </li>
-        </ul>
+        <div className="space-y-10">
+          <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
+          {/* project 1 */}
+          <ul className="space-y-6">
+            <li className="border-l-4 border-indigo-500 pl-4">
+              <h3 className="flex items-center gap-3 text-lg font-semibold md:text-xl text-gray-900 dark:text-white">
+                Portfolio Website
+                <a
+                  href="https://github.com/Albin-Binu/personal-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400"
+                  title="View Source Code on GitHub"
+                >
+                  <BiLogoGithub size={22} />
+                </a>
+              </h3>
+              <p className="mt-1 text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                A fully responsive personal portfolio website built using{" "}
+                <b>React.js</b> and <b>Bootstrap</b>. Includes features like
+                animated components, contact form, social media integration,
+                dark mode support, and project showcasing—all optimized for
+                smooth navigation and accessibility.
+              </p>
+            </li>
+          </ul>
+          {/* project -2  */}
+          <ul className="space-y-6">
+            <li className="border-l-4 border-indigo-500 pl-4">
+              <h3 className="flex items-center gap-3 text-lg font-semibold md:text-xl text-gray-900 dark:text-white">
+                College Website Clone
+                <a
+                  href="https://github.com/Albin-Binu/cas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400"
+                  title="View Source Code on GitHub"
+                >
+                  <BiLogoGithub size={22} />
+                </a>
+              </h3>
+              <p className="mt-1 text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                Recreated the official College of Applied Science, Thiruvambadi
+                website using HTML, CSS, and basic JavaScript as a learning
+                project during my first year. While not responsive, the project
+                helped me understand web page structure, semantic HTML, and
+                styling fundamentals.
+              </p>
+            </li>
+          </ul>
+        </div>
       </main>
     </div>
   );
