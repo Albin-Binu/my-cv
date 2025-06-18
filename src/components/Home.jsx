@@ -23,47 +23,57 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Certificates */}
+        {/* Certificate section */}
         <div className="max-w-3xl space-y-8">
           <h1 className="text-2xl font-bold md:text-4xl">Certificates</h1>
           <div className="space-y-10">
-            <div className="space-y-3">
-              <h3 className="text-sm font-semibold md:text-lg">
+            {/* Python Certificate */}
+            <div className="space-y-2 border-l-4 border-red-500 pl-4">
+              <h3 className="text-lg font-semibold">
                 Introduction to Python – SoloLearn
               </h3>
-              <h4 className="text-sm font-semibold md:text-lg">
+              <p className="text-sm text-gray-500 dark:text-gray-400">
                 Completed: August 2024
-              </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Gained foundational knowledge of Python programming, including
-                variables, data types, control structures, functions, and basic
-                object-oriented concepts. The course included hands-on coding
-                exercises and assessments to reinforce learning.
+              </p>
+              <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
+                Successfully completed a beginner-level course on Python
+                programming. Covered topics included variables, data types,
+                control structures, functions, and basic object-oriented
+                concepts, along with interactive coding challenges to reinforce
+                learning.
               </p>
             </div>
-            <div className="space-y-3">
-              <h3 className="text-sm font-semibold md:text-lg">
+
+            {/* C Certificate */}
+            <div className="space-y-2 border-l-4 border-blue-500 pl-4">
+              <h3 className="text-lg font-semibold">
                 Introduction to C – SoloLearn
               </h3>
-              <h4 className="text-sm font-semibold md:text-lg">
+              <p className="text-sm text-gray-500 dark:text-gray-400">
                 Completed: August 2024
-              </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Covered the basics of C programming such as syntax, data types,
-                operators, control flow, and functions. Developed a solid
-                foundation for understanding low-level programming and
-                system-level logic.
+              </p>
+              <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
+                Completed a foundational course on C programming. Topics
+                included syntax, data types, operators, control flow, and
+                function structures—laying the groundwork for system-level
+                programming and logical thinking in low-level languages.
               </p>
             </div>
-             <div className="space-y-3">
-              <h3 className="text-sm font-semibold md:text-lg">
+
+            {/* IV Certificate */}
+            <div className="space-y-2 border-l-4 border-green-500 pl-4">
+              <h3 className="text-lg font-semibold">
                 Industrial Visit – Cybrosys Technologies
               </h3>
-              <h4 className="text-sm font-semibold md:text-lg">
-                Completed: December 2024
-              </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Attended a one-day industrial visit at Cybrosys Technologies, where I gained insights into real-world software development practices, project workflows, and team collaboration. The experience provided valuable exposure to the IT industry environment and work culture.
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Participated: December 2024
+              </p>
+              <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
+                Participated in a one-day industrial visit at Cybrosys
+                Technologies. Gained valuable exposure to real-world software
+                development environments, including insights into project
+                workflows, team structures, and development tools used in the IT
+                industry.
               </p>
             </div>
           </div>
@@ -79,40 +89,45 @@ const Home = () => {
                 Sooraj Valsaraj
               </h2>
               <p className="text-gray-600 dark:text-gray-400">Phone: ---</p>
-              <p className="text-gray-600 dark:text-gray-400">Email: soorajvalsaraj24@gmail.com</p>
+              <p className="text-gray-600 dark:text-gray-400">
+                Email: soorajvalsaraj24@gmail.com
+              </p>
             </div>
             <div className="space-y-1">
               <h3 className="text-lg font-light">Designer</h3>
               <h2 className="text-base font-semibold md:text-2xl">Ashin P</h2>
               <p className="text-gray-600 dark:text-gray-400">Phone: ---</p>
-              <p className="text-gray-600 dark:text-gray-400">Email: ashinssj3@gmail.com</p>
+              <p className="text-gray-600 dark:text-gray-400">
+                Email: ashinssj3@gmail.com
+              </p>
             </div>
           </div>
         </div>
 
         {/* mini projects */}
-        
-       <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
-<ul className="space-y-4">
-  <li>
-    <h3 className="font-semibold flex items-center gap-2 text-lg md:text-xl">
-      Portfolio Website
-      <a
-        href="https://github.com/Albin-Binu/personal-portfolio"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-black dark:text-white transition-colors"
-        title="View on GitHub"
-      >
-        <BiLogoGithub size={20} />
-      </a>
-    </h3>
-    <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-      A responsive portfolio website built using React.js and Bootstrap. Features include animations, social linking, and contact information.
-    </p>
-  </li>
-</ul>
 
+        <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
+        <ul className="space-y-4">
+          <li>
+            <h3 className="font-semibold flex items-center gap-2 text-lg md:text-xl">
+              Portfolio Website
+              <a
+                href="https://github.com/Albin-Binu/personal-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black dark:text-white transition-colors"
+                title="View on GitHub"
+              >
+                <BiLogoGithub size={20} />
+              </a>
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
+              A responsive portfolio website built using React.js and Bootstrap.
+              Features include animations, social linking, and contact
+              information.
+            </p>
+          </li>
+        </ul>
       </main>
     </div>
   );
