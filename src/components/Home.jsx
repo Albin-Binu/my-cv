@@ -7,7 +7,7 @@ const Home = () => {
       {/* Download CV Button */}
       <div className="flex justify-end px-5 pt-5">
         <a
-          href="/Albin_Binu_CV.pdf"
+          href="/cv.pdf"
           download
           className="inline-flex items-center gap-2 rounded-md border border-blue-600 bg-blue-600 px-4 py-2 text-white font-semibold transition duration-300 hover:bg-blue-700 dark:hover:bg-white dark:hover:text-black"
         >
@@ -22,7 +22,7 @@ const Home = () => {
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
             Hello! I’m <b>Albin Binu</b>, a Computer Science student at the
-            <b> College of Applied Science, Thiruvambadi</b>. I’m deeply
+            <b> College of Applied Science, Thamarassery</b>. I’m deeply
             passionate about
             <b> programming</b>, with a strong interest in{" "}
             <b>backend development</b> and
